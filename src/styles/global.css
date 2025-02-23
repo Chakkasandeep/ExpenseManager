@@ -1,0 +1,56 @@
+/* Apply to all pages */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+ 
+    overflow: auto;
+    height: 100vh;   padding: 0;
+}
+
+/* Make all buttons stylish */
+button {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Make tables look modern */
+.table {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #6e8efb;
+    color: white;
+    padding: 12px;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Center everything in the home page */
+.home-container {
+    max-width: 100%; /* Allow full width */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    overflow: auto; /* Allow scrolling */
+    min-height: 100vh; /* Make sure it extends fully */
+}
+

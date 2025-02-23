@@ -1,0 +1,74 @@
+/* 🌈 New Attractive Background */
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to bottom right, #00C0FF, #4218B8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Signup Container */
+  .signup-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    color: rgb(0, 0, 0);
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+  }
+  
+  /* Redirect Text */
+  .redirect-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* Register Link */
+  .register-link {
+    color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
